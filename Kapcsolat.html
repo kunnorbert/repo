@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="Kezdolap.css">
+<link rel="stylesheet" type="text/css" href="Navbar.css">	
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+<meta charset="utf-8">
+</head>
+<body>
+	<div class="container">
+		<header class="clearfix">
+			<div class="fsega-logo">
+				<img src="FSEGA.png" alt="Logo FSEGA">
+			</div>
+			<div class="navbar-wrapper">
+				<div class="navbar clearfix">
+					<ul>
+						<li><a href="Kezdolap.html">Kezdőlap</a></li>
+						<li><a href="Tudnivalok.html">Tudnivalók</a></li>
+						<li><a href="Vizsgakrol.html">Vizsgákról</a></li>
+						<li><a href="Kapcsolat.html">Kapcsolat</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="ubb-logo">
+				<img src="ubb.png" alt="Logo UBB">
+			</div>
+		</header>
+		<main>
+			<div class="container-main clearfix">
+				<h1 class="focim">Elérhetőség</h1>
+				<div class="leiras-kapcsolat">
+					<p class="leiras">Szeretettel várjuk kérdéseiket, illetve hozzáfűzéseiket telefonon, e-mail címen vagy az egyetem titkarságán 8:00 órától 13:00 óráig.</p>
+				</div>
+				<div class="contact clearfix">
+					<div class="form-container">
+						<form name="form-wrapper" class="contact-form clearfix" onsubmit="return validate">
+							<div class="form-left">
+								<input class="textbox" type="text" name="firstname" placeholder="Keresztnév" required><br>
+								<input class="textbox" type="text" name="lastname" placeholder="Családnév" required><br>
+								<input class="textbox" type="number" name="year" id="userdate" placeholder="Iratkozás éve" onchange="TDate()" required><br>
+								<input class="textbox" type="email" name="lastname" placeholder="E-mail cím" required><br>
+								<input id="button" class="form-button" type="submit" value="Send"><br>
+							</div>
+							<div class="form-rigth">
+								<textarea rows="7" cols="30" placeholder="Irja be a szöveget..." required></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="contact-bar clearfix">
+						<ul class="contact-icons">
+						  <li class="icon"><a href="tel:+40264418652"><img border="0" alt="Phone icon" src="phone.png" width="50" height="50"></li>
+						  <li class="icon"><a href="https://www.facebook.com/FSEGA/?ref=br_rs"><img border="0" alt="Facebook icon" src="facebook.png" width="50" height="50"></li>
+						  <li class="icon"><a href="mailto:magyar.intezet@econ.ubbcluj.ro"><img border="0" alt="Mail icon" src="email.png" width="50" height="50"></li>
+						  <li class="icon"><a href="http://hu.econ.ubbcluj.ro/"><img border="0" alt="Browser icon" src="browser.png" width="50" height="50"></li>
+						  <li class="icon"><a href="https://www.google.com/maps/place/Faculty+of+Economics+and+Business+Administration/@46.773181,23.6187553,17z/data=!3m1!4b1!4m5!3m4!1s0x47490c15a18e8af9:0xcc357d4dedcf12a0!8m2!3d46.773181!4d23.620944"><img border="0" alt="Maps icon" src="location2.png" width="50" height="50"></a></li>
+						</ul>  
+					</div>
+				</div>
+					<ul class="contact-list">	
+							<li>BABEŞ-BOLYAI TUDOMÁNYEGYETEM</li>
+							<li>Közgazdaság- és Gazdálkodástudományi Kar</li>
+							<li>Cím: 400591 Kolozsvár, Teodor Mihali utca 58–60 szám</li>
+							<li>Telefon: 0264/418 652</li>
+							<li>Honlap: <a href="http://hu.econ.ubbcluj.ro">http://hu.econ.ubbcluj.ro</a></li>
+							<li>E-mail: <a href="mailto:magyar.intezet@econ.ubbcluj.ro">magyar.intezet@econ.ubbcluj.ro</a></li>
+					</ul>
+			</div>
+		</main>
+		<footer class="clearfix">
+			<p>© 2018 - Kun-M. Norbert, All rights reserved</p>
+		</footer>
+	</div>
+<script type="text/javascript" src="date.js"></script>
+</body>
+</html>

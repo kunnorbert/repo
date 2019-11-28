@@ -1,0 +1,364 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  max-height: 100%;
+}
+
+.container {
+	background: linear-gradient(to right, #ffffff , #9e927d , #ffffff , #9e927d , #ffffff);
+}
+
+.container-main,
+header, footer {
+	background-color: #d1cabf;
+	margin: 0 auto;
+	max-width: 1150px;
+}
+
+.container-main {
+	margin-top: -21px;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+main {
+	width: 100%;
+}
+
+.focim {
+	padding-left:16px;
+	font-size: 40px;
+}
+
+h2 {
+	padding-left:25px;
+}
+
+h3 {
+	padding-left:35px;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 24px;
+    margin-bottom: -30px;
+    margin-top: 35px;
+    padding-left: 35px;
+}
+
+a {
+	text-decoration: none;
+	color: #a00517;
+}
+
+.lista {
+	padding-left:30px;
+	font-style: italic;
+}
+
+.leiras-wrapper {
+	max-width: 1050px;
+	padding-left: 50px;
+}
+
+.leiras {
+	text-indent: 40px;
+	padding-left: 20px;
+}
+
+footer p {
+	float: right;
+	color: gray;
+}
+
+footer {
+	border-top: 1px solid #868282;
+}
+
+.pdf {
+	border: 10px solid gray;
+	border-radius: 1%;
+    width: 750px;
+    height: 1000px;
+}
+
+.pdf-wrapper {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.lista-tudnivalok {
+	list-style: none;
+	padding: 0;
+}
+
+.lista-tudnivalok li:nth-child(2n) {
+	padding-left: 15px;
+}
+
+.tudnivalok-wrapper {
+	float: left;
+}
+
+.countdown {
+	float: right;
+    padding-right: 160px;
+	font-size: 35px;
+	position: relative;
+    left: 50px;
+}
+
+#count {
+	font-size: 50px;
+	padding-left: 30px;
+	margin-top: -15px;
+}
+
+.textbox {
+	background-color: #d1cabf;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #b4aea6;
+	height: 30px;
+	font-size: 17px;
+}
+
+textarea{
+	background-color: #d1cabf;
+	border: 1px solid #b4aea6;
+	font-size: 17px;
+	border-radius: 5px;
+}
+
+.contact-form {
+	display: flex;
+	text-align: center;
+	padding-top: 55px;
+}
+
+.form-rigth {
+	padding-left: 40px;
+}
+
+.form-button {
+	margin-top: 15px;
+	font-size: 17px;
+	width: 100px;
+	background-color: #cec9c1;
+	color: #6e6a65;
+	border-radius: 25px;
+	border-color: #b4aea6
+}
+
+.contact-list {
+	list-style: none;
+	padding-left: 60px;
+	font-size: 14px;
+}
+
+.form-container {
+	margin: 0 auto;
+	max-width: 500px;
+	padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.leiras-kapcsolat {
+	max-width: 490px;
+	font-size: 20px;
+}
+
+.leiras-lista {
+	padding-left: 30px;
+}
+
+.contact-icons {
+	list-style: none;
+	padding: 0;
+	padding-right: 75px;
+}
+
+.icon {
+	margin-bottom: 25px;
+}
+
+.icon:nth-child(6) {
+	margin-bottom: 0;
+}
+
+.contact {
+	display: flex;
+}
+
+.dropbtn {
+    margin-top: 15px;
+	font-size: 22px;
+	width: 150px;
+	height: 50px;
+	letter-spacing: 2px;
+	background-color: #cec9c1;
+	color: #6e6a65;
+	border-radius: 4px;
+	border-color: #b4aea6;
+	margin-left: 45px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	padding-right: 40px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	position: absolute;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+	border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	margin-left: 14px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b7b3ac;
+}
+
+.datum {
+	display: -webkit-box;
+    padding-left: 40px;
+}
+
+.professor-description-wrapper {
+	padding-left: 100px;
+    padding-top: 55px;
+	display: flex;
+}
+
+.professor-info {
+	padding-top: 45px;
+}
+
+.professor-info ul {
+	list-style: none;
+	padding: 0;
+	width: 270px;
+	line-height: 25px;
+}
+
+.professor-szakdolgozat-temak {
+	position: relative;
+    right: 20px;
+}
+
+.professor-szakdolgozat-temak ol li {
+	line-height: 25px;
+}
+
+.tema-valasztas {
+	margin-bottom: 0px;
+    margin-top: -45px;
+}
+
+.description-img {
+	height: 190px;
+}
+
+.vizsgakrol-tartalom {
+	padding-right: 60px;
+    padding-left: 60px;
+	text-indent: 50px;
+	line-height: 20px;
+	text-align: justify;
+	font-size: 17px;
+}
+
+.vizsgakrol-tartalom-wrapper {
+	padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.vizsgakrol-img {
+	height: 250px;
+    padding-left: 150px;
+    margin-top: -40px;
+	font-size: 20px;
+}
+
+.vizsgakrol-img-wrapper {
+	display: flex;
+	padding-left: 70px;
+}
+
+.idezet {
+	text-align: center;
+    font-size: 20px;
+    padding-right: 35px;
+    padding-top: 65px;
+    max-width: 570px;
+}
+
+.subtitle {
+	font-size: 31px;
+}
+
+.login-button {
+	margin-left: 230px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100px;
+    color: #d1cabf;
+    background-color: #a00517;
+    border-radius: 10px;
+}
+
+.register-button {
+	margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100px;
+    color: #d1cabf;
+    background-color: #a00517;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.login-register-wrapper {
+	margin-left: 220px;
+	margin-bottom: -25px;
+}
+
+.textbox.login-submit {
+	margin-left: 75px;
+	margin-top: 10px;
+}
+
+.textbox.register-submit {
+	margin-left: 75px;
+	margin-top: 10px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="Kezdolap.css">
+<link rel="stylesheet" type="text/css" href="Navbar.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta charset="utf-8">
+</head>
+<body>
+<div class="container">
+	<header class="clearfix">
+		<div class="fsega-logo">
+			<img src="FSEGA.png" alt="Logo FSEGA">
+		</div>
+		<div class="navbar-wrapper">
+			<div class="navbar clearfix">
+				<ul>
+					<li><a href="Kezdolap.html">Kezdőlap</a></li>
+					<li><a href="Tudnivalok.html">Tudnivalók</a></li>
+					<li><a href="Vizsgakrol.html">Vizsgákról</a></li>
+					<li><a href="Kapcsolat.html">Kapcsolat</a></li>
+			</div>
+			<div class="login-register">
+				<button class="login-button">Login</button>
+				<button class="register-button">Register</button>
+				<div id="login-container">
+					<script id="login-content">
+						<div class="login-register-wrapper">
+							<form>
+								<input class="textbox" type="email" name="lastname" placeholder="E-mail cím" required /><br>
+								<input class="textbox" type="password" name="password" placeholder="Jelszó" required /><br>
+								<input class="textbox login-submit" type="submit" name="submit" value="Login" />
+							</form>
+						</div>
+					 </script>
+					<script id="register-content">
+						<div class="login-register-wrapper">
+							<form>
+								<input class="textbox" type="text" name="firstname" placeholder="Keresztnév" required /><br>
+								<input class="textbox" type="text" name="lastname" placeholder="Családnév" required /><br>
+								<input class="textbox" type="email" name="lastname" placeholder="E-mail cím" required /><br>
+								<input class="textbox" type="password" name="password" placeholder="Jelszó" required /><br>
+								<input class="textbox" type="password" name="confirm-password" placeholder="Jelszó megerősítés" required /><br>
+								<input class="textbox register-submit" type="submit" name="submit" value="Register" />
+							</form>
+						</div>
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="ubb-logo">
+			<img src="ubb.png" alt="Logo UBB">
+		</div>
+	</header>
+	<main>
+		<div class="container-main">
+			<h1 class="focim">Fontos dátumok</h1>
+			<div class="tudnivalok-countdown clearfix">
+				<div class="tudnivalok-wrapper">
+					<h2>A végzős diákok számára</h2>
+						<div class="leiras-lista">
+							<form class="lista-tudnivalok">
+								<input type="radio" name="allamvizsga" value="beiratkozas" checked> Az államvizsgára való beiratkozás a következő időpontok között történik:
+								<span class="datum">2018.06.11-2018.06.22<br></span>
+								<input type="radio" name="allamvizsga" value="irasbeli"> 2018 Júliusi licencvizsga írásbeli időpontja:
+								<span class="datum">2018.07.02 , 9 órától<br></span>
+								<input type="radio" name="allamvizsga" value="megvedes"> Szakdolgozat megvédési időpontja:
+								<span class="datum">2018.07.03-2018.07.04 , 9 órától kezdődően</span>
+							</form>
+						</div>
+				</div>
+				<div class="countdown">
+					<span class="cim-wrapper">
+						<p id="cim"><span id="cimecske">Beiratkozás időpontjáig: </span></p>
+					</span>
+					<p id="count"></p>
+				</div>
+			</div>
+			<div class="pdf-wrapper">
+				<embed class="pdf" src="https://econ.ubbcluj.ro/linia_maghiara/utmutato.pdf" width="600" height="500" alt="pdf">
+			</div>
+		</div>
+	</main>
+	<footer class="clearfix">
+		<p>© 2018 - Kun-M. Norbert, All rights reserved</p>
+	</footer>
+</div>
+<script type="text/javascript" src="countdown.js"></script>
+</body>
+</html>

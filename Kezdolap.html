@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="Kezdolap.css">
+<link rel="stylesheet" type="text/css" href="Navbar.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta charset="utf-8">
+</head>
+<body>
+<div class="container">
+	<header class="clearfix">
+		<div class="fsega-logo">
+			<img src="FSEGA.png" alt="Logo FSEGA">
+		</div>
+		<div class="navbar-wrapper">
+			<div class="navbar clearfix">
+				<ul>
+					<li><a href="Kezdolap.html">Kezdőlap</a></li>
+					<li><a href="Tudnivalok.html">Tudnivalók</a></li>
+					<li><a href="Vizsgakrol.html">Vizsgákról</a></li>
+					<li><a href="Kapcsolat.html">Kapcsolat</a></li>
+			</div>
+			<div class="login-register">
+				<button class="login-button">Login</button>
+				<button class="register-button">Register</button>
+				<div id="login-container">
+					<script id="login-content">
+						<div class="login-register-wrapper">
+							<form action="Login.php" method="POST">
+								<input class="textbox" type="email" name="lastname" placeholder="E-mail cím" required /><br>
+								<input class="textbox" type="password" name="password" placeholder="Jelszó" required /><br>
+								<input class="textbox login-submit" type="submit" name="submit" value="Login" />
+							</form>
+						</div>
+					 </script>
+					<script id="register-content">
+						<div class="login-register-wrapper">
+							<form action="Regisztral.php" method="POST">
+								<input class="textbox" type="text" name="firstname" placeholder="Keresztnév" required /><br>
+								<input class="textbox" type="text" name="lastname" placeholder="Családnév" required /><br>
+								<input class="textbox" type="text" name="specialization" placeholder="Szakirány" required /><br>
+								<input class="textbox" type="number" name="startdate" placeholder="Iratkozás éve" required /><br>
+								<input class="textbox" type="text" name="nrmatricol" placeholder="Diák azonosító" required /><br>
+								<input class="textbox" type="email" name="email" placeholder="E-mail cím" required /><br>
+								<input class="textbox" type="password" name="password" placeholder="Jelszó" required /><br>
+								<input class="textbox" type="password" name="confirm-password" placeholder="Jelszó megerősítés" required /><br>
+								<input class="textbox register-submit" type="submit" name="submit" value="Register" />
+							</form>
+						</div>
+					</script>
+				</div>
+			</div>
+			<div class="upload" style="margin-top: 50px;">
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+				    Select file to upload:
+				    <input type="file" name="fileToUpload" id="fileToUpload">
+				    <input type="submit" value="Upload File" name="submit">
+				</form>
+			</div>
+		</div>
+		<div class="ubb-logo">
+			<img src="ubb.png" alt="Logo UBB">
+		</div>
+	</header>
+	<main>
+		<div class="container-main">
+			<h1 class="focim">Út a sikerhez</h1>
+			<div class="utmutato-wrapper">
+				<h2>Útmutató a szak- és disszertációs dolgozatok elkészítéséhez</h2>
+				<div class="leiras-wrapper">
+					<p class="leiras">Amikor elkezded a dolgozatot egy hosszú sötét alagútba nézel, aminek nem látszik a vége. Ez általában elveszi a kedvüket a végzős diákoknak és nehezükre esik elkezdeni.
+					A titok abban áll, hogy a dolgozatot fel kell osztani több részre, olyan legyen mint a házifeladatok. Ahány fő fejezet, annyi házi feladatot kell elkészíteni, így fel lehet
+					osztani a nagy sötét alagútat több kisebb alagútra, aminek nekifogni nem olyan nehéz mint belevágni a mindenek közepében.</p>
+					<p class="leiras">Felébredtél a határidő elött két héttel, és még neki se fogtál a szakdolgozatnak? De nagyjából a vázlat megvan elöző kutatások alapján? A legjobb módszer ilyenkor az,
+					hogy vegyél a kezedbe egy szövegkiemelőt és legyen melletted egy pár post-it cimke, és ahogy olvasod a vázlatot és kapsz valami érdekeset, bejelölöd.</p>
+				</div>
+			</div>
+			<div class="Tartalom">
+				<h2>Tartalom</h2>
+				<div class="lista">
+				<ol>
+				  <li>A téma, valamint a témavezető tanár kiválasztása</li>
+				  <li>A témavezető és a belső konzulens feladatai</li>
+				  <li>A dolgozat struktúrájának a meghatározása</li>
+				  <li>A dolgozat szerkesztése</li>
+				  <li>A dolgozat bemutatása a bizottság előtt</li>
+				  <li>A dolgozat értékelési szempontjai</li>
+				</ol>
+				<br>
+				</div>
+				<div class="Kivalsztas">
+					<h3>I. A téma, valamint a témavezető tanár kiválasztása</h3>
+					<div class="leiras">
+						<p class="leiras">A szakdolgozatok témája kiválasztható előre felajánlott témák közül, vagy a vezetőtanárral való közös megeggyezés alapján, saját ötlet is megfelelő lehet témának, azonban
+						ezt a Közgazdaság- és Gazdálkodástudományi Magyar Intézet oktatói meg kell viszgálják, hogy lássák, megfelelő-e szakdolgozat témaként. </p>
+						<p class="leiras">Egyes szabályok is léteznek: egy diák sem készíthet és védhet meg dolgozatot témavezető nélkül, nem lehet ugyanazt a dolgozatot két szakirányon bemutatni és az
+						indiszciplináris témát választó diáknak két témavezetője is lehet.</p>
+					</div>
+				</div>
+				<div class="Temavezeto-feladatai">
+					<h3>II. A témavezető és a belső konzulens feladatai</h3>
+					<div class="leiras">
+						<p>A hallgató kötelessége a témavezető tanárral legalább háromszor megbeszélést tartani, és közösen eltervezni a munka menetét, értékelését és dokumentálását. Amennyiben a
+						témavezető nem Közgazdaság- és Gazdálkodástudományi Magyar Intézet főállású oktatója, belső konzulens is segíti a hallgató munkáját tartalmi és formai követelményekkel
+						kapcsolatosan. A vezetők feladata az elvi irányítás, a dolgozat a hallgató önálló munkája kell legyen.</p>
+					</div>
+				</div>
+				<div class="Struktura-meghatarozas">
+					<h3>III. A dolgozat struktúrájának meghatározása</h3>
+					<div class="leiras">
+						<p>Témaválásztás után a dolgozat felépítése a következő feladat. A következő elemeket kell tartalmazza:</p>
+						<div class="lista-tartalom-wrapper">
+							<ul class="lista">
+								<li>Tartalomjegyzék</li>
+								<li>Bevezetés: téma rövid bemutatása</li>
+								<li>Szakirodalmi háttér bemutatása: olvasóval megismertetni az eddig közölt legfontosabb eredményeket</li>
+								<li>A kutatás célja és hipotézisek</li>
+								<li>Módszertan és adatok: a gyakorlati részben használt módszertan és adatok bemutatása</li>
+								<li>Eredmények: alkalmazott módszerek segítségével elért eredmények</li>
+								<li>Következtetések: összegezni a dolgozat legfontosabb eredmenyeit</li>
+								<li>Irodalomjegyzék: felhasznált szakirodalmi források adatai</li>
+								<li>Mellékletek: kiegészítő dokumentumok</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="Dolgozat-szerkesztes">
+					<h3>IV. A dolgozat szerkesztése</h3>
+					<div class="leiras-kezdolap">
+						<p class="leiras">Nem létezik egyedi szabály a szerkesztésre vonatkozóan, de figyelembe kell venni bizonyos szabályokat, mint például a szerzői jogokat, a hivatalos és aktuális dokumentumok
+						használata.</p>
+						<p class="leiras">Szerkesztésre vonatkozó tanácsok is léteznek, melyek úgy margóméretre, mint a megfelelő betűtípusra is ajánlatokat adnak. Ezekről bővebb információt az oldal alján
+						szereplő link-re kattintva lehet megnézni.</p>
+					</div>
+				</div>
+				<div class="Dolgozat-leadasa">
+					<h3>V. A dolgozat leadása és a bemutatására vonatkozó tanácsok</h3>
+					<div class="leiras">
+						<p class="leiras">A tudományos kutatás egy dolgozat formájába konkretizálódik, amelyet a bizottságok megvitatnak és osztályoznak. A témavezetőknek joguk van nem javasolni megvédésre a
+						dolgozatot, ha ez nem felel meg a minimális követelményeknek.</p>
+					</div>
+				</div>
+
+				<div class="Ertekeles-szempontjai">
+					<h3>VI. A dolgozat értékelési szempontjai</h3>
+					<div class="leiras">
+						<p class="leiras">A dolgozatot az különböző szerkezeti és terjedelmi szempontok szerint osztályozzák, megvizsgálnak részletesen minden feltüntetett szempontot, ha a bevezetés illeszkedik a
+						kifejtéssel, ha a szakirodalom megbízható, a gyakorlati rész milyen mértékben alapszik és épít az elméleti részre, megfelelő a szerkesztés, stílus és külalak, stb.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="clearfix">
+		<p>© 2018 - Kun-M. Norbert, All rights reserved</p>
+	</footer>
+</div>
+<script type="text/javascript" src="countdown.js"></script>
+</body>
+</html>

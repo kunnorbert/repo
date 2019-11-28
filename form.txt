@@ -1,0 +1,6 @@
+kell legordulo lista, kivalasztani a szakot, a vezeto tanart, kell ellenorizni ha az email email formatumban van
+valami datumos idos felhasznalas, minumum h megjeleniteni, visszaszamlalas egy hataridoig
+javascript hasznalata, ne legyen zavaro, jo erzes hatarain belul
+a tanarokat keppel, hu.econ...
+
+Log in page!!!!!!!!!!

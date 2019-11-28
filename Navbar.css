@@ -1,0 +1,58 @@
+.navbar-wrapper{
+	width: 60%;
+}
+
+.navbar {
+	max-width: 490px;
+	margin: 0 auto;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 0;
+}
+
+.navbar li {
+	float: left;
+	margin-left: 10px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.navbar li a:hover {
+	color: red;
+}
+
+.navbar li a {
+	text-decoration: none;
+	transition: all 0.5s ease-in;
+	color: #a00517;
+}
+
+.navbar li:nth-child(1) {
+	margin-left: 0;
+}
+
+.fsega-logo  img {
+	width:240px;
+	height:50px;
+	padding-right:15px;
+}
+
+.ubb-logo img  	{
+	width:165px;
+	height:50px;
+	padding-right:15px;
+}
+
+header {
+	display: flex;
+	padding-top: 15px;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
